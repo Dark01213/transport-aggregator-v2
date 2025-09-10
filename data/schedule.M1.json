@@ -1,0 +1,142 @@
+[
+  {
+    "tripId": "M1-2025-09-10-0815-BAST",
+    "stopId": "Bastille",
+    "plannedISO": "2025-09-10T08:15:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0820-BAST",
+    "stopId": "Bastille",
+    "plannedISO": "2025-09-10T08:20:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0825-BAST",
+    "stopId": "Bastille",
+    "plannedISO": "2025-09-10T08:25:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0830-BAST",
+    "stopId": "Bastille",
+    "plannedISO": "2025-09-10T08:30:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0835-BAST",
+    "stopId": "Bastille",
+    "plannedISO": "2025-09-10T08:35:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0840-BAST",
+    "stopId": "Bastille",
+    "plannedISO": "2025-09-10T08:40:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0845-BAST",
+    "stopId": "Bastille",
+    "plannedISO": "2025-09-10T08:45:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0850-BAST",
+    "stopId": "Bastille",
+    "plannedISO": "2025-09-10T08:50:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0900-CHAT",
+    "stopId": "Chatelet",
+    "plannedISO": "2025-09-10T09:00:00Z",
+    "platform": "2",
+    "headsign": "Château de Vincennes"
+  },
+  {
+    "tripId": "M1-2025-09-10-0905-CHAT",
+    "stopId": "Chatelet",
+    "plannedISO": "2025-09-10T09:05:00Z",
+    "platform": "2",
+    "headsign": "Château de Vincennes"
+  },
+  {
+    "tripId": "M1-2025-09-10-0910-CHAT",
+    "stopId": "Chatelet",
+    "plannedISO": "2025-09-10T09:10:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0915-CHAT",
+    "stopId": "Chatelet",
+    "plannedISO": "2025-09-10T09:15:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0920-CONC",
+    "stopId": "Concorde",
+    "plannedISO": "2025-09-10T09:20:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0925-CONC",
+    "stopId": "Concorde",
+    "plannedISO": "2025-09-10T09:25:00Z",
+    "platform": "2",
+    "headsign": "Château de Vincennes"
+  },
+  {
+    "tripId": "M1-2025-09-10-0930-ETOI",
+    "stopId": "Etoile",
+    "plannedISO": "2025-09-10T09:30:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0935-ETOI",
+    "stopId": "Etoile",
+    "plannedISO": "2025-09-10T09:35:00Z",
+    "platform": "2",
+    "headsign": "Château de Vincennes"
+  },
+  {
+    "tripId": "M1-2025-09-10-0940-ETOI",
+    "stopId": "Etoile",
+    "plannedISO": "2025-09-10T09:40:00Z",
+    "platform": "1",
+    "headsign": "La Défense"
+  },
+  {
+    "tripId": "M1-2025-09-10-0945-DEFE",
+    "stopId": "Defense",
+    "plannedISO": "2025-09-10T09:45:00Z",
+    "platform": "3",
+    "headsign": "Château de Vincennes"
+  },
+  {
+    "tripId": "M1-2025-09-10-0950-DEFE",
+    "stopId": "Defense",
+    "plannedISO": "2025-09-10T09:50:00Z",
+    "platform": "3",
+    "headsign": "Château de Vincennes"
+  },
+  {
+    "tripId": "M1-2025-09-10-0955-DEFE",
+    "stopId": "Defense",
+    "plannedISO": "2025-09-10T09:55:00Z",
+    "platform": "3",
+    "headsign": "Château de Vincennes"
+  }
+]

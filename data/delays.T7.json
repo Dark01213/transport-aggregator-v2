@@ -1,0 +1,6 @@
+[
+  {"tripId": "T7-2025-09-10-0800-VILL", "status": "late", "minutes": 3},
+  {"tripId": "T7-2025-09-10-0815-RUNG", "status": "onTime"},
+  {"tripId": "T7-2025-09-10-0830-ORLY", "status": "cancelled"},
+  {"tripId": "T7-2025-09-10-0845-ATHI", "status": "onTime"}
+]

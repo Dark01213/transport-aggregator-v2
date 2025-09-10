@@ -1,0 +1,107 @@
+[
+  {
+    "tripId": "M2-2025-09-10-0800-NATI",
+    "stopId": "Nation",
+    "plannedISO": "2025-09-10T08:00:00Z",
+    "platform": "1",
+    "headsign": "Porte Dauphine"
+  },
+  {
+    "tripId": "M2-2025-09-10-0805-NATI",
+    "stopId": "Nation",
+    "plannedISO": "2025-09-10T08:05:00Z",
+    "platform": "1",
+    "headsign": "Porte Dauphine"
+  },
+  {
+    "tripId": "M2-2025-09-10-0810-NATI",
+    "stopId": "Nation",
+    "plannedISO": "2025-09-10T08:10:00Z",
+    "platform": "1",
+    "headsign": "Porte Dauphine"
+  },
+  {
+    "tripId": "M2-2025-09-10-0815-NATI",
+    "stopId": "Nation",
+    "plannedISO": "2025-09-10T08:15:00Z",
+    "platform": "1",
+    "headsign": "Porte Dauphine"
+  },
+  {
+    "tripId": "M2-2025-09-10-0820-BELL",
+    "stopId": "Belleville",
+    "plannedISO": "2025-09-10T08:20:00Z",
+    "platform": "2",
+    "headsign": "Nation"
+  },
+  {
+    "tripId": "M2-2025-09-10-0825-BELL",
+    "stopId": "Belleville",
+    "plannedISO": "2025-09-10T08:25:00Z",
+    "platform": "1",
+    "headsign": "Porte Dauphine"
+  },
+  {
+    "tripId": "M2-2025-09-10-0830-PIGA",
+    "stopId": "Pigalle",
+    "plannedISO": "2025-09-10T08:30:00Z",
+    "platform": "1",
+    "headsign": "Porte Dauphine"
+  },
+  {
+    "tripId": "M2-2025-09-10-0835-PIGA",
+    "stopId": "Pigalle",
+    "plannedISO": "2025-09-10T08:35:00Z",
+    "platform": "2",
+    "headsign": "Nation"
+  },
+  {
+    "tripId": "M2-2025-09-10-0840-ETOI",
+    "stopId": "Etoile",
+    "plannedISO": "2025-09-10T08:40:00Z",
+    "platform": "3",
+    "headsign": "Porte Dauphine"
+  },
+  {
+    "tripId": "M2-2025-09-10-0845-ETOI",
+    "stopId": "Etoile",
+    "plannedISO": "2025-09-10T08:45:00Z",
+    "platform": "4",
+    "headsign": "Nation"
+  },
+  {
+    "tripId": "M2-2025-09-10-0850-ETOI",
+    "stopId": "Etoile",
+    "plannedISO": "2025-09-10T08:50:00Z",
+    "platform": "3",
+    "headsign": "Porte Dauphine"
+  },
+  {
+    "tripId": "M2-2025-09-10-0855-VICT",
+    "stopId": "Victor-Hugo",
+    "plannedISO": "2025-09-10T08:55:00Z",
+    "platform": "1",
+    "headsign": "Porte Dauphine"
+  },
+  {
+    "tripId": "M2-2025-09-10-0900-VICT",
+    "stopId": "Victor-Hugo",
+    "plannedISO": "2025-09-10T09:00:00Z",
+    "platform": "2",
+    "headsign": "Nation"
+  },
+  {
+    "tripId": "M2-2025-09-10-0905-PORT",
+    "stopId": "Porte-Dauphine",
+    "plannedISO": "2025-09-10T09:05:00Z",
+    "platform": "1",
+    "headsign": "Nation"
+  },
+  {
+    "tripId": "M2-2025-09-10-0910-PORT",
+    "stopId": "Porte-Dauphine",
+    "plannedISO": "2025-09-10T09:10:00Z",
+    "platform": "1",
+    "headsign": "Nation"
+  }
+]

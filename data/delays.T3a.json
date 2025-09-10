@@ -1,0 +1,6 @@
+[
+  {"tripId": "T3a-2025-09-10-0815-PONT", "status": "onTime"},
+  {"tripId": "T3a-2025-09-10-0825-BALA", "status": "late", "minutes": 2},
+  {"tripId": "T3a-2025-09-10-0835-PORT", "status": "onTime"},
+  {"tripId": "T3a-2025-09-10-0845-CITE", "status": "late", "minutes": 5}
+]

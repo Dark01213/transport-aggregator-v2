@@ -1,0 +1,25 @@
+stage,name,ttg_minutes,difficulty_1_5,bugs_found,docs_quality_1_5,files_touched,loc_added
+01,Domain Types,3,2,1,4,2,35
+02,DTO Guards,5,3,1,5,2,80
+03,HTTP Wrapper,4,3,0,4,1,40
+04,Load Basics,-,-,-,-,-,-
+05,Load Schedule,-,-,-,-,-,-
+06,Normalize Search,-,-,-,-,-,-
+07,Window Filter,-,-,-,-,-,-
+08,Format Lines,-,-,-,-,-,-
+09,Load Delays,-,-,-,-,-,-
+10,Merge,-,-,-,-,-,-
+11,Sort Group,-,-,-,-,-,-
+12,Top N,-,-,-,-,-,-
+13,Parallel vs Sequential,-,-,-,-,-,-
+14,Retry Fallback,-,-,-,-,-,-
+15,Result DU,-,-,-,-,-,-
+16,Abort Search,-,-,-,-,-,-
+17,Cache Layer,-,-,-,-,-,-
+18,Config Options,-,-,-,-,-,-
+19,Cleanup Refactor,-,-,-,-,-,-
+20,Main Orchestrator,-,-,-,-,-,-
+21,Tests Services Mock,-,-,-,-,-,-
+22,Coverage,-,-,-,-,-,-
+23,Alerts Summary,-,-,-,-,-,-
+24,CLI Report,-,-,-,-,-,-

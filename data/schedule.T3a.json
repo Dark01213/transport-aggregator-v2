@@ -1,0 +1,30 @@
+[
+  {
+    "tripId": "T3a-2025-09-10-0815-PONT",
+    "stopId": "Pont-Garigliano",
+    "plannedISO": "2025-09-10T08:15:00Z",
+    "platform": "A",
+    "headsign": "Porte de Vincennes"
+  },
+  {
+    "tripId": "T3a-2025-09-10-0825-BALA",
+    "stopId": "Balard",
+    "plannedISO": "2025-09-10T08:25:00Z",
+    "platform": "A",
+    "headsign": "Porte de Vincennes"
+  },
+  {
+    "tripId": "T3a-2025-09-10-0835-PORT",
+    "stopId": "Porte-Versailles",
+    "plannedISO": "2025-09-10T08:35:00Z",
+    "platform": "B",
+    "headsign": "Pont du Garigliano"
+  },
+  {
+    "tripId": "T3a-2025-09-10-0845-CITE",
+    "stopId": "Cite-U",
+    "plannedISO": "2025-09-10T08:45:00Z",
+    "platform": "A",
+    "headsign": "Porte de Vincennes"
+  }
+]

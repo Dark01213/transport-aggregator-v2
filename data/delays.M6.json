@@ -1,0 +1,7 @@
+[
+  {"tripId": "M6-2025-09-10-0830-NATI", "status": "onTime"},
+  {"tripId": "M6-2025-09-10-0835-BERC", "status": "late", "minutes": 4},
+  {"tripId": "M6-2025-09-10-0840-PLAC", "status": "onTime"},
+  {"tripId": "M6-2025-09-10-0845-MONT", "status": "cancelled"},
+  {"tripId": "M6-2025-09-10-0850-TROC", "status": "onTime"}
+]

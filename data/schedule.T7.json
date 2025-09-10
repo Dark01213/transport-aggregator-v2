@@ -1,0 +1,30 @@
+[
+  {
+    "tripId": "T7-2025-09-10-0800-VILL",
+    "stopId": "Villejuif",
+    "plannedISO": "2025-09-10T08:00:00Z",
+    "platform": "1",
+    "headsign": "Aéroport d'Orly"
+  },
+  {
+    "tripId": "T7-2025-09-10-0815-RUNG",
+    "stopId": "Rungis",
+    "plannedISO": "2025-09-10T08:15:00Z",
+    "platform": "1",
+    "headsign": "Aéroport d'Orly"
+  },
+  {
+    "tripId": "T7-2025-09-10-0830-ORLY",
+    "stopId": "Orly",
+    "plannedISO": "2025-09-10T08:30:00Z",
+    "platform": "2",
+    "headsign": "Villejuif - Louis Aragon"
+  },
+  {
+    "tripId": "T7-2025-09-10-0845-ATHI",
+    "stopId": "Athis-Mons",
+    "plannedISO": "2025-09-10T08:45:00Z",
+    "platform": "1",
+    "headsign": "Villejuif - Louis Aragon"
+  }
+]

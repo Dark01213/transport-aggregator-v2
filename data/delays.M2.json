@@ -1,0 +1,17 @@
+[
+  {"tripId": "M2-2025-09-10-0800-NATI", "status": "onTime"},
+  {"tripId": "M2-2025-09-10-0805-NATI", "status": "late", "minutes": 2},
+  {"tripId": "M2-2025-09-10-0810-NATI", "status": "onTime"},
+  {"tripId": "M2-2025-09-10-0815-NATI", "status": "late", "minutes": 6},
+  {"tripId": "M2-2025-09-10-0820-BELL", "status": "onTime"},
+  {"tripId": "M2-2025-09-10-0825-BELL", "status": "cancelled"},
+  {"tripId": "M2-2025-09-10-0830-PIGA", "status": "onTime"},
+  {"tripId": "M2-2025-09-10-0835-PIGA", "status": "late", "minutes": 3},
+  {"tripId": "M2-2025-09-10-0840-ETOI", "status": "onTime"},
+  {"tripId": "M2-2025-09-10-0845-ETOI", "status": "onTime"},
+  {"tripId": "M2-2025-09-10-0850-ETOI", "status": "late", "minutes": 8},
+  {"tripId": "M2-2025-09-10-0855-VICT", "status": "onTime"},
+  {"tripId": "M2-2025-09-10-0900-VICT", "status": "cancelled"},
+  {"tripId": "M2-2025-09-10-0905-PORT", "status": "onTime"},
+  {"tripId": "M2-2025-09-10-0910-PORT", "status": "late", "minutes": 1}
+]

@@ -1,0 +1,198 @@
+{
+  "title": "Transport Aggregator - Learning Path",
+  "version": "1.0.0",
+  "stages": [
+    {
+      "number": 1,
+      "branch": "stage-01-domain-types",
+      "title": "Domain Types",
+      "arc": "Foundations",
+      "difficulty": "easy",
+      "skills": ["TypeScript", "Types", "Branded Types"]
+    },
+    {
+      "number": 2,
+      "branch": "stage-02-dto-guards",
+      "title": "DTO Guards & Parsing",
+      "arc": "Foundations",
+      "difficulty": "easy",
+      "skills": ["Type Guards", "Validation", "Error Handling"]
+    },
+    {
+      "number": 3,
+      "branch": "stage-03-http-wrapper",
+      "title": "HTTP Wrapper",
+      "arc": "Foundations",
+      "difficulty": "medium",
+      "skills": ["Async", "Promises", "Error Mapping"]
+    },
+    {
+      "number": 4,
+      "branch": "stage-04-load-basics",
+      "title": "Load Basics",
+      "arc": "Foundations",
+      "difficulty": "easy",
+      "skills": ["Data Loading", "JSON", "Filtering"]
+    },
+    {
+      "number": 5,
+      "branch": "stage-05-load-schedule",
+      "title": "Load Schedule",
+      "arc": "Foundations",
+      "difficulty": "medium",
+      "skills": ["Complex Data", "Parsing", "Validation"]
+    },
+    {
+      "number": 6,
+      "branch": "stage-06-normalize-search",
+      "title": "Normalize & Search",
+      "arc": "Search & Utils",
+      "difficulty": "easy",
+      "skills": ["String Processing", "Search", "Normalization"]
+    },
+    {
+      "number": 7,
+      "branch": "stage-07-window-filter",
+      "title": "Window Filter",
+      "arc": "Search & Utils",
+      "difficulty": "medium",
+      "skills": ["Date Handling", "Filtering", "Time Windows"]
+    },
+    {
+      "number": 8,
+      "branch": "stage-08-format-lines",
+      "title": "Format Lines",
+      "arc": "Search & Utils",
+      "difficulty": "easy",
+      "skills": ["String Formatting", "Templates", "Display"]
+    },
+    {
+      "number": 9,
+      "branch": "stage-09-load-delays",
+      "title": "Load Delays",
+      "arc": "Delays & Merge",
+      "difficulty": "medium",
+      "skills": ["Union Types", "Status Handling", "Data Loading"]
+    },
+    {
+      "number": 10,
+      "branch": "stage-10-merge",
+      "title": "Merge Data",
+      "arc": "Delays & Merge",
+      "difficulty": "hard",
+      "skills": ["Data Joining", "Performance", "Algorithms"]
+    },
+    {
+      "number": 11,
+      "branch": "stage-11-sort-group",
+      "title": "Sort & Group",
+      "arc": "Delays & Merge",
+      "difficulty": "medium",
+      "skills": ["Sorting", "Grouping", "Generics"]
+    },
+    {
+      "number": 12,
+      "branch": "stage-12-topN",
+      "title": "Top N Selection",
+      "arc": "Delays & Merge",
+      "difficulty": "easy",
+      "skills": ["Array Operations", "Slicing", "Selection"]
+    },
+    {
+      "number": 13,
+      "branch": "stage-13-parallel-vs-seq",
+      "title": "Parallel vs Sequential",
+      "arc": "Async Orchestration",
+      "difficulty": "hard",
+      "skills": ["Promise.all", "Sequential Async", "Performance"]
+    },
+    {
+      "number": 14,
+      "branch": "stage-14-retry-fallback",
+      "title": "Retry & Fallback",
+      "arc": "Async Orchestration",
+      "difficulty": "hard",
+      "skills": ["Retry Logic", "Fallback", "Error Recovery"]
+    },
+    {
+      "number": 15,
+      "branch": "stage-15-result-du",
+      "title": "Result Type",
+      "arc": "Async Orchestration",
+      "difficulty": "medium",
+      "skills": ["Result Pattern", "Error Handling", "Functional"]
+    },
+    {
+      "number": 16,
+      "branch": "stage-16-abort-search",
+      "title": "Abort Search",
+      "arc": "Async Orchestration",
+      "difficulty": "hard",
+      "skills": ["AbortController", "Cancellation", "Race Conditions"]
+    },
+    {
+      "number": 17,
+      "branch": "stage-17-cache-layer",
+      "title": "Cache Layer",
+      "arc": "Quality & Performance",
+      "difficulty": "medium",
+      "skills": ["Caching", "Memoization", "Performance"]
+    },
+    {
+      "number": 18,
+      "branch": "stage-18-config-options",
+      "title": "Config Options",
+      "arc": "Quality & Performance",
+      "difficulty": "easy",
+      "skills": ["Configuration", "Defaults", "Options Pattern"]
+    },
+    {
+      "number": 19,
+      "branch": "stage-19-cleanup-refactor",
+      "title": "Cleanup & Refactor",
+      "arc": "Quality & Performance",
+      "difficulty": "medium",
+      "skills": ["Refactoring", "Clean Code", "DRY"]
+    },
+    {
+      "number": 20,
+      "branch": "stage-20-main-orchestrator",
+      "title": "Main Orchestrator",
+      "arc": "Quality & Performance",
+      "difficulty": "hard",
+      "skills": ["Orchestration", "Integration", "Architecture"]
+    },
+    {
+      "number": 21,
+      "branch": "stage-21-tests-services-mock",
+      "title": "Tests & Mocks",
+      "arc": "Tests & Hardening",
+      "difficulty": "medium",
+      "skills": ["Jest", "Mocking", "Unit Tests"]
+    },
+    {
+      "number": 22,
+      "branch": "stage-22-coverage",
+      "title": "Code Coverage",
+      "arc": "Tests & Hardening",
+      "difficulty": "easy",
+      "skills": ["Coverage", "Testing", "Quality"]
+    },
+    {
+      "number": 23,
+      "branch": "stage-23-alerts-summary",
+      "title": "Alerts Summary",
+      "arc": "Tests & Hardening",
+      "difficulty": "medium",
+      "skills": ["Aggregation", "Statistics", "Summary"]
+    },
+    {
+      "number": 24,
+      "branch": "stage-24-cli-report",
+      "title": "CLI Report",
+      "arc": "Tests & Hardening",
+      "difficulty": "medium",
+      "skills": ["CLI", "Formatting", "Reporting"]
+    }
+  ]
+}

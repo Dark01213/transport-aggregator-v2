@@ -1,0 +1,37 @@
+[
+  {"lineId": "M1", "stopId": "Bastille", "name": "Bastille"},
+  {"lineId": "M1", "stopId": "St-Paul", "name": "Saint-Paul"},
+  {"lineId": "M1", "stopId": "Hotel-de-Ville", "name": "Hôtel de Ville"},
+  {"lineId": "M1", "stopId": "Chatelet", "name": "Châtelet"},
+  {"lineId": "M1", "stopId": "Louvre", "name": "Louvre - Rivoli"},
+  {"lineId": "M1", "stopId": "Concorde", "name": "Concorde"},
+  {"lineId": "M1", "stopId": "Etoile", "name": "Charles de Gaulle - Étoile"},
+  {"lineId": "M1", "stopId": "Defense", "name": "La Défense"},
+  
+  {"lineId": "M2", "stopId": "Nation", "name": "Nation"},
+  {"lineId": "M2", "stopId": "Pere-Lachaise", "name": "Père Lachaise"},
+  {"lineId": "M2", "stopId": "Belleville", "name": "Belleville"},
+  {"lineId": "M2", "stopId": "Pigalle", "name": "Pigalle"},
+  {"lineId": "M2", "stopId": "Anvers", "name": "Anvers"},
+  {"lineId": "M2", "stopId": "Etoile", "name": "Charles de Gaulle - Étoile"},
+  {"lineId": "M2", "stopId": "Victor-Hugo", "name": "Victor Hugo"},
+  {"lineId": "M2", "stopId": "Porte-Dauphine", "name": "Porte Dauphine"},
+  
+  {"lineId": "M6", "stopId": "Nation", "name": "Nation"},
+  {"lineId": "M6", "stopId": "Bercy", "name": "Bercy"},
+  {"lineId": "M6", "stopId": "Place-Italie", "name": "Place d'Italie"},
+  {"lineId": "M6", "stopId": "Montparnasse", "name": "Montparnasse - Bienvenüe"},
+  {"lineId": "M6", "stopId": "Trocadero", "name": "Trocadéro"},
+  {"lineId": "M6", "stopId": "Etoile", "name": "Charles de Gaulle - Étoile"},
+  
+  {"lineId": "T3a", "stopId": "Pont-Garigliano", "name": "Pont du Garigliano"},
+  {"lineId": "T3a", "stopId": "Balard", "name": "Balard"},
+  {"lineId": "T3a", "stopId": "Porte-Versailles", "name": "Porte de Versailles"},
+  {"lineId": "T3a", "stopId": "Cite-U", "name": "Cité Universitaire"},
+  {"lineId": "T3a", "stopId": "Montsouris", "name": "Montsouris"},
+  
+  {"lineId": "T7", "stopId": "Villejuif", "name": "Villejuif - Louis Aragon"},
+  {"lineId": "T7", "stopId": "Rungis", "name": "Rungis - La Fraternelle"},
+  {"lineId": "T7", "stopId": "Orly", "name": "Aéroport d'Orly"},
+  {"lineId": "T7", "stopId": "Athis-Mons", "name": "Athis-Mons"}
+]

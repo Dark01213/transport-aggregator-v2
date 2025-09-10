@@ -1,0 +1,37 @@
+[
+  {
+    "tripId": "M6-2025-09-10-0830-NATI",
+    "stopId": "Nation",
+    "plannedISO": "2025-09-10T08:30:00Z",
+    "platform": "1",
+    "headsign": "Charles de Gaulle - Étoile"
+  },
+  {
+    "tripId": "M6-2025-09-10-0835-BERC",
+    "stopId": "Bercy",
+    "plannedISO": "2025-09-10T08:35:00Z",
+    "platform": "1",
+    "headsign": "Charles de Gaulle - Étoile"
+  },
+  {
+    "tripId": "M6-2025-09-10-0840-PLAC",
+    "stopId": "Place-Italie",
+    "plannedISO": "2025-09-10T08:40:00Z",
+    "platform": "2",
+    "headsign": "Nation"
+  },
+  {
+    "tripId": "M6-2025-09-10-0845-MONT",
+    "stopId": "Montparnasse",
+    "plannedISO": "2025-09-10T08:45:00Z",
+    "platform": "1",
+    "headsign": "Charles de Gaulle - Étoile"
+  },
+  {
+    "tripId": "M6-2025-09-10-0850-TROC",
+    "stopId": "Trocadero",
+    "plannedISO": "2025-09-10T08:50:00Z",
+    "platform": "1",
+    "headsign": "Charles de Gaulle - Étoile"
+  }
+]
