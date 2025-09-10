@@ -1,12 +1,22 @@
-// Initial domain types file
-// This will be replaced by stage-specific implementations
+// Stage 01: Domain Types
+// Define the core domain types for the transport aggregator
 
-export type LineId = string;
-export type StopId = string;
-export type TripId = string;
+// Branded types using unique symbols
+declare const lineIdBrand: unique symbol;
+declare const stopIdBrand: unique symbol;
+declare const tripIdBrand: unique symbol;
 
-export type DelayStatus = any;
+export type LineId = string & { [lineIdBrand]: 'LineId' };
+export type StopId = string & { [stopIdBrand]: 'StopId' };
+export type TripId = string & { [tripIdBrand]: 'TripId' };
 
+// DelayStatus discriminated union
+export type DelayStatus = 
+  | { type: 'onTime' }
+  | { type: 'late'; minutes: number }
+  | { type: 'cancelled' };
+
+// PlannedDeparture interface
 export interface PlannedDeparture {
   tripId: TripId;
   stopId: StopId;
@@ -15,18 +25,20 @@ export interface PlannedDeparture {
   headsign: string;
 }
 
+// Departure extends PlannedDeparture
 export interface Departure extends PlannedDeparture {
   status: DelayStatus;
 }
 
+// Helper functions for branded types
 export function createLineId(id: string): LineId {
-  return id;
+  return id as LineId;
 }
 
 export function createStopId(id: string): StopId {
-  return id;
+  return id as StopId;
 }
 
 export function createTripId(id: string): TripId {
-  return id;
+  return id as TripId;
 }
