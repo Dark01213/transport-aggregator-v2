@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { spawn } from 'child_process';
-import { existsSync, mkdirSync, writeFileSync, readFileSync, readdirSync, statSync, copyFileSync } from 'fs';
+import { existsSync, mkdirSync, writeFileSync, readFileSync, readdirSync, statSync, copyFileSync, rmSync } from 'fs';
 import { join, dirname, basename } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -125,6 +125,22 @@ async function createBranch(branchName, stageNumber) {
 
     // Create and checkout new branch
     await execCommand('git', ['checkout', '-b', branchName], { cwd: projectRoot });
+
+    // Clean up tests directory first to avoid cross-stage test pollution
+    const testsDir = join(projectRoot, 'tests');
+    if (existsSync(testsDir)) {
+      console.log(`  Cleaning tests directory...`);
+      // Remove all test files except placeholder.test.ts
+      const testFiles = readdirSync(testsDir);
+      for (const testFile of testFiles) {
+        if (testFile !== 'placeholder.test.ts') {
+          const testFilePath = join(testsDir, testFile);
+          if (statSync(testFilePath).isFile()) {
+            rmSync(testFilePath);
+          }
+        }
+      }
+    }
 
     // Copy stage content
     const stageDir = join(__dirname, 'stages', `stage-${stageNumber}`);
