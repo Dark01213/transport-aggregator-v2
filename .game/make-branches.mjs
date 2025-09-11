@@ -155,6 +155,13 @@ async function createBranch(branchName, stageNumber) {
       }
     }
 
+    // Always copy MISSIONS-REFERENCE.md from main to each branch
+    const missionsRefPath = join(projectRoot, 'MISSIONS-REFERENCE.md');
+    if (existsSync(missionsRefPath)) {
+      console.log(`  Adding MISSIONS-REFERENCE.md...`);
+      // File is already in the working directory from main branch checkout
+    }
+
     // Commit changes
     await execCommand('git', ['add', '.'], { cwd: projectRoot });
     await execCommand('git', ['commit', '-m', `Setup ${branchName}`], { cwd: projectRoot });
