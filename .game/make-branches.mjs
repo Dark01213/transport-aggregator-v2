@@ -128,19 +128,13 @@ async function createBranch(branchName, stageNumber) {
 
     // Clean up tests directory first to avoid cross-stage test pollution
     const testsDir = join(projectRoot, 'tests');
+    console.log(`  Resetting tests directory...`);
     if (existsSync(testsDir)) {
-      console.log(`  Cleaning tests directory...`);
-      // Remove all test files except placeholder.test.ts
-      const testFiles = readdirSync(testsDir);
-      for (const testFile of testFiles) {
-        if (testFile !== 'placeholder.test.ts') {
-          const testFilePath = join(testsDir, testFile);
-          if (statSync(testFilePath).isFile()) {
-            rmSync(testFilePath);
-          }
-        }
-      }
+      // Remove the entire tests directory to guarantee a clean slate
+      rmSync(testsDir, { recursive: true, force: true });
     }
+    // Re-create an empty tests directory; stage content will populate it
+    mkdirSync(testsDir, { recursive: true });
 
     // Copy stage content
     const stageDir = join(__dirname, 'stages', `stage-${stageNumber}`);
