@@ -6,7 +6,7 @@
 
 ## Mission 01: Domain Types 🎯
 
-### 📖 Mini-cours : Types Branded et Unions Discriminées
+### 📖 Mini-cours : Types Branded et Unions Discriminéeselkthbnijeqd^rsjohbvô$s=rqkjnbsrq^dùklmnb
 
 #### Qu'est-ce qu'un Type Branded ?
 Un type branded permet de créer des types distincts basés sur des primitives, évitant les erreurs de mélange :
